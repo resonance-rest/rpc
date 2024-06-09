@@ -6,7 +6,7 @@
 - Run `wuwa.rpc.exe`.
 - Select the Wuthering Waves Game directory path.
 - The RPC should be working now.
-- You can close the
+- You can stop the RPC by exiting through the tray icon.
 
 ### Building
 
