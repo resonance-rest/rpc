@@ -2,3 +2,4 @@ main.spec
 build
 dist
 icon.ico
+.ruff_cache
