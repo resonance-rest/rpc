@@ -14,3 +14,7 @@
 - Build the project: `pyinstaller --onefile --noconsole` (assuming you have [pyinstaller](https://pyinstaller.org/) installed).
 - Launch the compiled file in `./dist/main.exe`.
 
+### Preview
+
+![image](https://files.catbox.moe/fvslpr.png)
+
