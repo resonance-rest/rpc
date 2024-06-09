@@ -1,0 +1,4 @@
+Pillow
+pypresence
+pystray
+Requests

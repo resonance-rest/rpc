@@ -11,7 +11,6 @@
 ### Building
 
 - Clone the repository: `git clone https://github.com/resonance-rest/rpc`.
-- Build the project: `pyinstaller --onefile --noconsole` (assuming you have [**pyinstaller**](https://pyinstaller.org/) installed).
-- Put the `icon.ico` file into the directory with .exe
+- Build the project: `pyinstaller --onefile --noconsole` (assuming you have [pyinstaller](https://pyinstaller.org/) installed).
 - Launch the compiled file in `./dist/main.exe`.
 

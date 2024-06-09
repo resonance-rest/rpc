@@ -1,13 +1,15 @@
-import psutil
 import json
 import tkinter as tk
 import time
 import os
 import pystray
+import requests
 import sqlite3
+
 from tkinter import filedialog
 from pypresence import Presence
 from pystray import MenuItem as item
+from io import BytesIO
 from PIL import Image
 
 CONFIG_FILE = "config.json"
@@ -162,8 +164,13 @@ def main():
 
 def create_tray_icon():
     try:
-        image = Image.open("icon.ico")
-        return image
+        response = requests.get("https://files.catbox.moe/wiiuuy.png")
+        if response.status_code == 200:
+            image = Image.open(BytesIO(response.content))
+            return image
+        else:
+            print(response.status_code)
+            return None
     except Exception as e:
         print(f"→ {e}")
         return None
