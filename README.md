@@ -1,3 +1,5 @@
+### Discontinued
+
 # 📦 Discord Rich Presence for Wuthering Waves ⎯ made with [**Python**](https://www.python.org/)
 
 ### Download and usage
